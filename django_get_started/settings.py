@@ -18,12 +18,12 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': path.join(PROJECT_ROOT, 'db.sqlite3'),
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': '__demo__',
+        'USER': 'opengms',
+        'PASSWORD': '1H2He3Li',
+        'HOST': 'opengms.database.windows.net',
+        'PORT': '1433',
     }
 }
 
