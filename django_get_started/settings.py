@@ -18,8 +18,8 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': '__demo__',
+        'ENGINE': 'django.db.backends.sql_server.pyodbc',
+        'NAME': 'OpenGMS',
         'USER': 'opengms',
         'PASSWORD': '1H2He3Li',
         'HOST': 'opengms.database.windows.net',
